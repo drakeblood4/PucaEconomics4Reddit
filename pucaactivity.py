@@ -6,7 +6,7 @@ from selenium.common.exceptions import NoSuchElementException
 from bs4 import BeautifulSoup, SoupStrainer
 
 
-DRIVER = webdriver.Firefox(executable_path='/Users/MarkusLeben/Downloads/geckodriver')
+DRIVER = webdriver.Firefox(executable_path='/Users/nobody/Downloads/geckodriver')
 
 DRIVER.get("http://pucatrade.com/login")
 
